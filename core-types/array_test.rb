@@ -277,7 +277,7 @@ class ArrayTest < Minitest::Homework
   def test_flatten
     assert_equal [:a, :b, :c], [:a, :b, :c].flatten
     assert_equal [:a, :b, :c], [:a, [:b, :c]].flatten
-    assert_equal [:a, :b, :c, :d, :e, :f, :g;], [:a, [:b, [:c]], [:d], :e, [:f, :g]].flatten
+    assert_equal [:a, :b, :c, :d, :e, :f, :g], [:a, [:b, [:c]], [:d], :e, [:f, :g]].flatten
   end
 
   # Uhm. Halp?
